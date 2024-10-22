@@ -135,7 +135,7 @@ class Vendita():
   def importo_vendita(self):
     vendita_tot = 0
     for auto in self.automobili:
-      vendita_tot += + auto.prezzo
+      vendita_tot += auto.prezzo
     for moto in self.motocicli:
       vendita_tot += moto.prezzo
     numero_veicoli = len(self.automobili) + len(self.motocicli)
